@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOTOS Y VIDEOS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/la h.png" type="image/png">
+    <meta name="author" content="SEBASTIAN FRANCO MEDINA">
+</head>
+<body class="galeria">
+
+    <!-- Audio invisible -->
+    <audio id="background-music" loop>
+        <source src="/audios/lo que tengo.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    </audio>
+
+    <!-- Botón pequeño en esquina superior derecha -->
+    <button id="music-toggle" title="Reproducir/Pausar música">🎵</button>
+
+    <!-- GRILLA DE IMÁGENES -->
+    <div class="flexbox">
+        <div class="flex-item"><img src="images/1.jpeg" alt="Foto 1" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/16.jpeg" alt="Foto 2" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/3.jpeg" alt="Foto 3" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/17.jpeg" alt="Foto 4" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/5.jpeg" alt="Foto 5" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/6.jpeg" alt="Foto 6" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/7.jpeg" alt="Foto 7" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/18.jpeg" alt="Foto 8" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/9.jpeg" alt="Foto 9" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/19.jpeg" alt="Foto 10" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/11.jpeg" alt="Foto 11" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/12.jpeg" alt="Foto 12" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/13.jpeg" alt="Foto 13" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/14.jpeg" alt="Foto 14" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/15.jpeg" alt="Foto 15" class="hover-zoom"></div>
+        <div class="flex-item"><img src="images/20.jpeg" alt="Foto 16" class="hover-zoom"></div>
+    </div>
+
+    <!-- OVERLAY PARA HOVER -->
+    <div id="hover-overlay">
+        <img id="hover-img">
+    </div>
+
+    <!-- VIDEOS -->
+<div class="videos-container">
+    <div class="videos">
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/OAv8y5ys_IA?autoplay=1&mute=1" 
+                title="YouTube video" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- Nuevo video agregado en el medio -->
+    <div class="videos">
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/5KWPC33lTVM?autoplay=1&mute=1" 
+                title="YouTube video" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="videos">
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/g_xTNYbFsOA?autoplay=1&mute=1" 
+                title="YouTube video" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </div>
+</div>
+
+
+    <!-- BOTÓN INICIO -->
+    <div class="wrapper">
+        <div class="button-container">
+            <a href="index.html" class="btn-terror" title="VOLVER A INICIO">Inicio</a>
+        </div>
+    </div>
+
+    <!-- JS externo -->
+    <script src="script.js"></script>
+
+</body>
+</html>

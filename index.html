@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- 📌 METADATOS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HËRPES O PUDRASE</title>
+    <link rel="icon" href="images/la h.png" type="image/png">
+
+    <!-- SEO -->
+    <meta name="author" content="SEBASTIAN FRANCO MEDINA">
+    <meta name="description" content="Herpes es una banda de Heavy metal formada en 2008. En su repertorio combinan elementos del heavy metal, punk, psicodelia y velocidad"> 
+    <meta name="keywords" content="herpes, heavy metal, punk, rock, metal argentino, música en buenos aires"> 
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="HERPES">
+    <meta property="og:image" content="images/a(3).jpg">
+    <meta property="og:description" content="Herpes es una banda de Heavy metal formada en 2008. En su repertorio combinan elementos del heavy metal, punk, psicodelia y velocidad">
+    <meta property="og:url" content="https://herpesmetal.com">
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="fuego">
+    <!-- MODAL DE BIENVENIDA -->
+    <div id="welcome-modal" class="modal">
+        <div class="imagen-hover">
+            <img src="images/logo hd.png" alt="Logo Herpes" class="imagen-normal modal-logo">
+        </div>
+    </div>
+
+    <!-- Audio invisible -->
+    <audio id="background-music" loop>
+        <source src="/audios/colosus.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    </audio>
+
+    <!-- Botón pequeño en esquina superior derecha -->
+    <button id="music-toggle" title="Reproducir/Pausar música">🎵</button>
+
+    <!-- 📌 NAVEGACIÓN -->
+    <header>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav__item">
+                    <a href="https://www.instagram.com/herpes_o_pudrase?igsh=Y3htd2xlbnFic2k5" 
+                       class="nav__link"  
+                       title="Click aquí para contacto a través de Instagram">
+                        INSTAGRAM
+                        <img src="images/ig.png" alt="Instagram" class="nav__icon-img">
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://www.facebook.com/profile.php?id=100041994472064&mibextid=ZbWKwL" 
+                       class="nav__link" 
+                       title="Click aquí para contacto a través de Facebook">
+                        FACEBOOK
+                        <img src="images/fb.png" alt="Facebook" class="nav__icon-img">
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="discografia.html" class="nav__link" title="Click aquí para escuchar discos">
+                        DISCOGRAFÍA
+                        <img src="images/disco3.png" alt="Disco" class="nav__icon-img icon-large">
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="quienessomos.html" class="nav__link" title="Miembros de la banda">
+                        QUIÉNES SOMOS
+                        <img src="images/calaveraa.png" alt="Calavera" class="nav__icon-img icon-large">
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="galeria.html" class="nav__link" title="Fotos y más">
+                        GALERÍA
+                        <img src="images/camara3.png" alt="Cámara" class="nav__icon-img icon-large">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 📌 CONTENIDO PRINCIPAL -->
+    <main>
+        <div class="imagen-hover">
+            <img class="imagen-normal" src="images/logo hd.png" alt="Logo de Hërpes">
+        </div>
+
+        <div class="historia">
+            <p>Originarios de Buenos Aires, Argentina, Hërpes es una banda de Metal formada en 2008. Su estilo musical fusiona influencias del Heavy Metal, punk y psicodelia...</p>
+            <p>Después de lanzar su álbum debut homónimo en 2013, Hërpes se dispuso a recorrer el circuito under...</p>
+            <p>En 2016, presentaron su segundo álbum "El Club de los Monstruos"...</p>
+            <p>Con su último disco "Gran Brujo" (2024), los encapuchados Hërpes siguen consolidando su posición...</p>
+            <p>Luego de concluir con la gira de presentación de “Gran Brujo”, la banda fue invitada a tocar en el Teatro Vorterix para una edición del ciclo “Pogo Fest”, donde ejecutaron su repertorio ante más de 1000 personas...</p>
+            <p>Actualmente, la banda está editando un material live session realizado en Vorterix y se encuentra preparando las canciones de su próximo disco, que verá la luz en 2026.</p>
+        </div>
+
+        <h1><strong>HËRPES</strong></h1>
+    </main>
+
+    <!-- 📌 ASIDE (INFO EXTRA) -->
+    <aside>
+        <h2>Próximas presentaciones</h2>
+
+        <h3>OCTUBRE</h3>
+        <ul class="eventos">
+            <li>⚡ 4 - Comunión Pesada, Club V</li>
+            <li>⚡ 12 - Club Conjura, Halloween</li>
+            <li>⚡ 18 - La Plata, Inacayal</li>
+        </ul>
+
+        <h3>NOVIEMBRE</h3>
+        <ul class="eventos">
+            <li>⚡ 15 - Campana, Festival</li>
+        </ul>
+
+        <h3>DICIEMBRE</h3>
+        <ul class="eventos">
+            <li>⚡ 20 - En San Telmo</li>
+        </ul>
+    </aside>
+
+    <!-- 📌 FOOTER -->
+    <footer>
+        <div class="image1">
+            <img src="images/entrada.jpeg" class="e" alt="Imagen de entrada">
+        </div>
+
+        <div class="container">
+            <button id="like-button">CLICK AQUÍ SI APOYAS A LA BANDA =)</button>
+            <p id="like-count">0</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>

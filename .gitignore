@@ -1,0 +1,7 @@
+# Ignorar node_modules si existiera
+node_modules/
+
+# Ignorar archivos temporales del sistema
+.DS_Store
+Thumbs.db
+

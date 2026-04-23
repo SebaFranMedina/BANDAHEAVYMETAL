@@ -1,5 +1,5 @@
 # 🎸 HËRPES - Sitio Oficial de la Banda
-
+ 
 ## 🌟 Descripción
 Sitio web oficial de la banda **HËRPES**, desarrollado con **HTML5, CSS3 y JavaScript**.  
 Presenta una estética **metalera/rock** con fondos animados, efectos hover, música de fondo y galería multimedia.  

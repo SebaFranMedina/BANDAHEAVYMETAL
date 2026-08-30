@@ -71,7 +71,6 @@ Ideal para fans que quieran explorar la discografía, fotos, videos y conocer a 
 
 ## 👤 Autor
 **Sebastian Franco Medina**  
-[LinkedIn](https://www.linkedin.com/in/sebastianfmedina/) | [GitHub](https://github.com/sebastianfmedina)  
 
 ---
 

@@ -1,5 +1,5 @@
 # 🎸 HËRPES - Sitio Oficial de la Banda
-                
+
 ## 🌟 Descripción
 Sitio web oficial de la banda **HËRPES**, desarrollado con **HTML5, CSS3 y JavaScript**.  
 Presenta una estética **metalera/rock** con fondos animados, efectos hover, música de fondo y galería multimedia.  
@@ -31,7 +31,7 @@ Ideal para fans que quieran explorar la discografía, fotos, videos y conocer a 
 - Presenta los **integrantes** en dos filas.
 - Animación de **temblor** al pasar el mouse sobre fotos ⚡.
 - Fondo dinámico con **gradiente animado** 🌈.
-- Botón “terror” con **parpadeo y temblor errático** 👻.
+- Botón "terror" con **parpadeo y temblor errático** 👻.
 
 ---
 
@@ -69,6 +69,14 @@ Ideal para fans que quieran explorar la discografía, fotos, videos y conocer a 
 
 ---
 
+## 🌐 Despliegue
+
+El sitio está deployado en **Azure Static Web Apps** y disponible públicamente en:
+
+🔗 **[https://proud-pebble-0b65d6d10.7.azurestaticapps.net](https://proud-pebble-0b65d6d10.7.azurestaticapps.net)**
+
+---
+
 ## 👤 Autor
 **Sebastian Franco Medina**  
 
@@ -78,4 +86,3 @@ Ideal para fans que quieran explorar la discografía, fotos, videos y conocer a 
 - Efectos visuales inspirados en **metal y rock clásico**.
 - Integración de **GIFs y videos** para fondo dinámico.
 - Música de fondo cuidadosamente seleccionada para cada sección.
-
